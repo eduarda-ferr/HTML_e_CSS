@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="Tabela.css">
+</head>
+<body>
+    <main>
+        <h1>Tabelas de HTML</h1>
+        <section id="students">
+            <h2>Alunos</h2>
+            <table border="3">
+                <thead> <!-- cabeçalho da tabela -->
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <tbody> <!-- corpo da tabela -->
+                    <tr>
+                        <td>Carol Ferreira Vasconcelos</td>
+                        <td>carolvasc@gmail.com</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Antônio Ernandes da Silva </td>
+                        <td>ernandess@gmail.com</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Larissa Costa Perreira</td>
+                        <td>lariperr@gmail.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="finance">
+            <h2>Controle Financeiro</h2>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th colspan="2">Tipo</th> <!-- mesclar -->
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">15/06/2023</td>
+                        <td colspan="2">despesa</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+
+                    <tr>
+                        
+                        
+                        <td colspan="2">salário</td>
+                        <td>R$ 3.768,00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+</body>
+</html>

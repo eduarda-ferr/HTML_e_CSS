@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 50%;
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+table, td, th {
+    border: 1px solid #100f10;
+
+}
+table tr:first-child{
+    background-color: #fa0404;
+}
+
+table tr:nth-child(2n +3){
+    background-color: #0466fa;
+}
+    
+table{
+    font-size: 2.4rem;
+    border-collapse: separate;
+    text-align: center;
+}
+
+h1{
+    color: #000000;
+    /* cor */
+    font-size: 96px;
+    font-size: 9.6rem;
+    /* tamanho */
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {font-family:Georgia, 'Times New Roman', Times, serif ;}
+
+h2{
+    font-size: 2.4em;
+    font-style: oblique;
+    text-align:left;
+}
+
+ul{
+    padding-left: 2rem;
+}
+
+ol{
+    padding-left: 2rem;
+    list-style: decimal;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #100f10;
+    display: inline-block;
+    background-color: #0466fa;
+    color: aquamarine;
+    border: 3px solid#fa0404;
+    display: inline-block;
+
+}
+
+img{
+    height: 100px;
+    width: 200px;
+    border: 4px red;
+    display: inline-block;
+    display: inline;
+}
+.novo-em{font-size: 300%;}
+.novo-em h2{font-size: 3.5rem;}

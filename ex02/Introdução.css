@@ -1,0 +1,14 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    /* estilo para remover margens e preenchimentos padrão do corpo */
+}
+h1 {
+    color: #000;
+    background-color: rgb(249, 5, 5);
+    font-size: 4em; /* Alterei para um valor relativo */
+    font-weight: 100;
+    text-align: center; /* Centralizei o texto */
+    padding: 20px; /* Adicionar preenchimento para melhorar a aparência */
+}

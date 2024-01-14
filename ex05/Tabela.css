@@ -1,0 +1,20 @@
+
+main {
+    max-width: 800px;
+    margin:auto;
+}
+table {
+    width: 100%;
+    border-collapse:collapse;
+    margin-bottom: 10px; /* margin area na parte inferior de um elemento */
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #b1d304;
+}
+tbody tr:nth-child(even) {
+    background-color: #078bfe;
+}

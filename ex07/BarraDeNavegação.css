@@ -1,0 +1,43 @@
+
+/* margens e preenchimentos */
+*{
+    margin: 5;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* cabeçalho */
+header {
+    background-color: #030303; /* cor de fundo ao cabeçalho */
+    padding: 15px; /*tamanho */
+    text-align: center;
+}
+
+/* barra de navegação */
+nav {
+    display: flex; /* exibe os elementos um ao lado do outro */
+    justify-content: space-between; /* espaços entre os elementos */
+    align-items: center; /* centraliza verticalmente os elementos */
+}
+
+/* links na barra de navegação */
+nav a {
+    text-decoration: none; /* remove a decoração padrão de link */
+    color: rgb(255, 255, 255); /* cor do texto dos links */
+    margin: 0 20px; /* Adiciona margem para separar os links */
+    font-weight: bold; /* texto negrito */
+}
+
+/* Estilo da lista não ordenada (ul) que contém os links */
+ul {
+    list-style: none; /* remove os marcadores */
+    margin: 0; /* remove a margem padrão  */
+    padding: 0; /* remove o preenchimento padrão  */
+    display:flex; /* exibe os itens da lista em linha */
+}
+
+/* Estilo dos itens da lista (li) */
+li {
+    margin: 0; /* remove a margem padrão */
+    padding: 0; /* remove o preenchimento padrão */
+}
